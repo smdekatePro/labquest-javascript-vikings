@@ -106,7 +106,6 @@ class War {
     return result;
   }
 
-  // Report the status of the war
   showStatus() {
     if (this.saxonArmy.length === 0) {
       return 'Vikings have won the war of the century!';
